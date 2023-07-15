@@ -1,0 +1,141 @@
+.main{
+    width:75%;
+    text-align: 200px;
+    background-color: rgb(250, 245, 245);
+    margin: auto;
+    font-family: sans-serif;
+}
+.information{
+    display: flex;
+  flex-wrap: wrap;
+}
+
+img{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 21px -3px, rgb(0 0 0 / 30%) 0px 7px 8px 1px;
+
+}
+.gender button{
+    width: 16%;
+    height: 32px;
+    font-size: medium;
+    border: none;
+    border-radius: 6px;
+    box-shadow: rgb(50 50 93 / 25%) 0px -3px 4px 0px, rgb(0 0 0 / 30%) 0px 4px 8px 1px;
+margin-right: 25px;
+}
+input#find {
+    width: 46%;
+    height: 31px;
+    border-radius: -18px;
+    border-radius: 7px;
+    margin-left: 256px;
+    border: none;
+    box-shadow: rgb(138 140 143 / 43%) 0px 0px 0px 3px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#imgcon{
+    margin-left: 50px;
+    margin-right: 0px;
+    text-align: center;
+    /* margin-bottom: 50px; */
+    
+}
+h1{
+    text-align: center;
+}
+
+.gender {
+    margin: 20px 20px 20px 372px;
+}
+
+
+ /* .visi{
+  
+} */
+
+p{
+    visibility: hidden;
+    position: relative;
+    bottom: 61px;
+
+}
+.prev{
+    margin: -7px 300px 17px 0px;
+}
+.prev button{
+    width: 50px;
+    border-radius: 6px;
+    border: none;
+    height: 28px;
+}
+.prev a i{
+    font-size: x-large;
+    font-size: 35px;
+    
+
+}
+/* img:hover + .visi{
+    visibility: visible;
+}   */
+
+.info{
+    background-color: #b6cfc1;
+    width: 31%;
+    margin-left: 420px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 5px;
+
+}
+.active{
+    background-color: rgba(228, 86, 34, 0.932);
+    border-color: aqua;
+    color: rgb(13, 243, 243);
+}
+#addbtn{
+    width: 15%;
+    height: 27px;
+    margin-left: 52px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(228, 86, 34, 0.932);
+    box-shadow: rgb(50 50 93 / 25%) 0px -3px 4px 0px, rgb(0 0 0 / 30%) 0px 4px 8px 1px;
+  
+}
+.loading{
+    position: relative;
+    height: 10px;
+    width: 45%;
+    border: 6px solid #f4a261;
+    border-radius: 15px;
+    margin: auto;
+}
+.loading .color{
+    position: absolute;
+    background-color: #ffffff;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progres 1s infinite linear;    
+}
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+};
